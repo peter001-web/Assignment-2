@@ -1,0 +1,84 @@
+body{
+    background-color: #f9f4e8;
+}
+
+.container{
+    width: 80%;
+    margin: o auto;
+    overflow: hidden;
+}
+
+a{
+    text-decoration: none;
+    color: #555555;
+    font-size: 20px;
+}
+
+header{
+    display: flex;
+    padding-top: 30px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-box1{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.flex-list1{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.flex-box3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    gap: 20px;
+}
+
+main{
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns:1fr 1fr ;
+    grid-template-rows: 400px;
+}
+
+h1{
+    width: 280px;
+}
+
+.grid-box1 p{
+    width: 410px;
+    color: #555555;
+    font-size: 16px;
+    line-height: 1.5rem;
+}
+
+.input-sec{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.input-box{
+    border: none;
+    padding: 20px 20px;
+    margin: 8px;
+}
+
+.checkmark img{
+    cursor: pointer;
+}
+
+.checkmark{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
