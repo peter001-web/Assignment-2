@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 body{
     background-color: #f9f4e8;
 }
@@ -32,7 +35,10 @@ header{
     display: flex;
     flex-direction: row;
     gap: 20px;
+    display: flex;
 }
+
+
 
 .flex-box3{
     display: flex;
@@ -40,6 +46,20 @@ header{
     justify-content: center;
     align-content: center;
     gap: 20px;
+}
+
+.button1{
+    background-color: linear-gradient(to right, #EAAE53,#EA5573);
+    border-radius: 25px;
+    padding: 0px 10px;
+}
+
+.button2{
+    background-color: #4977EA ;
+    color: white;
+    padding: 20px 20px;
+    border-radius: 8px;
+    font-size: 15px;
 }
 
 main{
@@ -80,5 +100,40 @@ h1{
     display: flex;
     flex-direction: row;
     gap: 10px;
+}
+
+.grid-box2{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.img-container{
+    position: relative;
+    height: 100%;
+    float: left;
+}
+
+.img-container img{
+    position: absolute;
+    width: 21em;
+}
+
+.model{
+    z-index: 999;
+}
+
+.purple{
+    z-index: 90;
+    transform: rotate(-15deg);
+}
+
+.pink{
+    z-index: 80;
+    transform: rotate(-30deg);
+}
+
+.blue{
+    z-index: 70;
+    transform: rotate(-45deg);
 }
 
