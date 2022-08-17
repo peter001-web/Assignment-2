@@ -12,7 +12,7 @@ body{
     margin: o auto;
     overflow: hidden;
     border: px solid;
-    margin-left: 100px;
+    /* margin-left: 100px; */
 }
 
 ul{
